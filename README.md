@@ -43,7 +43,7 @@
 ## 🚀 Быстрый старт
 
 ```bash
-git clone https://github.com/your-username/POC-Banking-ML-Attacks.git
+git clone https://github.com/proovethetruth/POC-Banking-ML-Attacks.git
 cd POC-Banking-ML-Attacks
 
 # Локально через Makefile
