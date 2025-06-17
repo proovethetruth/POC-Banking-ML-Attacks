@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter artifacts (на всякий случай)
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE/Editor stuff
+.vscode/
+*.code-workspace
+
+# Data artifacts
+data/*.pkl
+data/*.csv
+data/*.xls
+data/MNIST/
+
+# Results / Output
+results/
+*.png
+
+# Git stuff (если образ будет публиковаться)
+.git/
+.gitignore
+
+# Misc
+*.log
+.DS_Store

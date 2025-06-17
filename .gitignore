@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+
+# Model artifacts & intermediate data
+*.pkl
+*.joblib
+*.csv
+*.xls
+*.xlsx
+
+# Attack outputs & results
+results/
+*.png
+*.log
+
+# Datasets (e.g., MNIST)
+data/MNIST/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Docker artifacts (if used)
+*.tar
