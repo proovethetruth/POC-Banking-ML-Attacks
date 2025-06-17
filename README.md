@@ -80,7 +80,7 @@ docker run --rm poc-banking-ml-attacks
 
 ---
 
-## ⭐ Основные выводы
+## Анализ
 Все технические детали и выводы описаны в [docs/findings.md], а рекомендации по защите — в [docs/defenses.md].
 
 - Без rate-limiting и adversarial training модель легко сломать через HopSkipJump (Decision-based Adversarial), даже не зная её градиентов
