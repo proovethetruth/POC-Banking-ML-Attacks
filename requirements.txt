@@ -5,3 +5,4 @@ scikit-learn>=1.0
 joblib>=1.1.0
 adversarial-robustness-toolbox>=1.16.0
 packaging>=21.3
+matplotlib>=3.7.0
