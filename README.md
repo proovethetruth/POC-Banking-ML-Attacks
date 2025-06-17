@@ -85,9 +85,7 @@ docker run --rm poc-banking-ml-attacks
 
 - Без rate-limiting и adversarial training модель легко сломать через HopSkipJump (Decision-based Adversarial), даже не зная её градиентов
 - По "чёрному" API можно обучить surrogate-модель с fidelity ~95% и accuracy ~82% на оригинальных данных (Model Extraction)
-- Простейший threshold-based подход к Membership Inference даёт AUC >72% и позволяет узнать, какие клиенты были в тренировочном наборе
-
-Подробнее см. [docs/findings.md] и [docs/defenses.md]  
+- Простейший threshold-based подход к Membership Inference даёт AUC >72% и позволяет узнать, какие клиенты были в тренировочном наборе 
 
 ## Что дальше
 Проект не претендует на полноту покрытия всех классов угроз, но демонстрирует, насколько низкий порог входа у атак на ML-модели даже без доступа к коду или градиентам
