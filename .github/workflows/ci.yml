@@ -30,5 +30,3 @@ jobs:
           test -f results/extraction_plot.png
           test -f results/tabular_adv_plot.png
           test -f results/membership_roc.png
-          test -f results/summary.png
-          test -f results/report.html

@@ -16,13 +16,7 @@ membership:
 adv:
 	python src/adversarial_tabular_attack.py
 
-plots:
-	python src/generate_plots.py
-
-report:
-	python src/report.py
-
-all: train extract membership adv plots report
+all: train extract membership adv
 
 clean:
 	rm -rf results/*.png results/report.html data/processed_data.pkl data/credit_model.pkl data/surrogate_model.pkl
