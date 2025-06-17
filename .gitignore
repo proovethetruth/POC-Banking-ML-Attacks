@@ -22,11 +22,11 @@ venv/
 .idea/
 
 # Model artifacts & intermediate data
-*.pkl
-*.joblib
-*.csv
-*.xls
-*.xlsx
+# *.pkl
+# *.joblib
+# *.csv
+# *.xls
+# *.xlsx
 
 # Datasets (e.g., MNIST)
 data/MNIST/

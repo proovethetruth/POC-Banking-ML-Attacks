@@ -1,4 +1,4 @@
-.PHONY: all setup train extract membership adv clean docker-build docker-run
+.PHONY: all setup train extract membership adv plots report clean docker-build docker-run
 
 setup:
 	pip install --upgrade pip
@@ -16,13 +16,19 @@ membership:
 adv:
 	python src/adversarial_tabular_attack.py
 
-all: train extract membership adv
+plots:
+	python src/generate_plots.py
+
+report:
+	python src/report.py
+
+all: train extract membership adv plots report
 
 clean:
-	rm -rf results/*.txt results/*.png data/processed_data.pkl data/credit_model.pkl data/surrogate_model.pkl
+	rm -rf results/*.png results/report.html data/processed_data.pkl data/credit_model.pkl data/surrogate_model.pkl
 
 docker-build:
 	docker build -t poc-banking-ml-attacks .
 
 docker-run:
-	docker run --rm poc-banking-ml-attacks make all
+	docker run --rm poc-banking-ml-attacks
