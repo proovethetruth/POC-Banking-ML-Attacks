@@ -28,11 +28,6 @@ venv/
 *.xls
 *.xlsx
 
-# Attack outputs & results
-results/
-*.png
-*.log
-
 # Datasets (e.g., MNIST)
 data/MNIST/
 
