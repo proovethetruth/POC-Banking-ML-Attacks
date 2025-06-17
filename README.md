@@ -1,5 +1,5 @@
 # Banking ML Attacks PoC
-
+[![CI](https://github.com/proovethetruth/POC-Banking-ML-Attacks/actions/workflows/ci.yml/badge.svg)](https://github.com/proovethetruth/POC-Banking-ML-Attacks/actions/workflows/ci.yml)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Proof-of-Concept** моделирует три класса атаки на простую ML-модель кредитного скоринга. Здесь же собраны выводы по mitigation strategies и тонкостям атаки
